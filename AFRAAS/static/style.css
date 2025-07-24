@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f9f9fb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 40px 20px;
+    background: white;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 12px;
+}
+
+h1, h2 {
+    color: #4a4a4a;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input[type="file"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-left: 10px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.dataframe {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.dataframe th, .dataframe td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.dataframe th {
+    background: #f2f2f2;
+}

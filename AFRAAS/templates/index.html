@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AFRAAS - Face Attendance</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+<body>
+    <h1>AFRAAS: Face Recognition Attendance System</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label>Select Face Image:</label>
+        <input type="file" name="image" required>
+        <button type="submit">Upload</button>
+    </form>
+
+    <a href="/attendance">📋 View Attendance</a>
+</body>
+</html>
